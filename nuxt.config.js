@@ -34,5 +34,12 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  modules: [
+    ['storyblok-nuxt', {
+      accessToken: 'q1hx2r4veRtVtzRSOXkH1gtt',
+      cacheProvider: 'memory'
+    }]
+  ],
+  plugins: ['~/plugins/components.js']
 }
