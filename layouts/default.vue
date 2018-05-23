@@ -8,12 +8,12 @@
             <img src="/cgi-results.jpg" width="180" alt="Site title goes here">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav-items" aria-controls="main-nav-items" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div id="main-nav-items" class="collapse navbar-collapse">
             <ul class="nav navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link px-md-3" href="/about/">About Us</a>
+                <router-link :to="'about-us'" class="nav-link px-md-3">About Us</router-link>
               </li>
               <li class="nav-item">
                   <a class="nav-link px-md-3" href="/services/">Services</a>
